@@ -1,0 +1,711 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:2:1-439:12
+	package
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [pure2d-master:pure2D:unspecified] /home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/exploded-aar/pure2d-master/pure2D/unspecified/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+		INJECTED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:12:22-64
+application
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:14:5-437:19
+MERGED from [pure2d-master:pure2D:unspecified] /home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/exploded-aar/pure2d-master/pure2D/unspecified/AndroidManifest.xml:11:5-15:19
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:16:9-45
+	android:installLocation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:17:9-49
+	android:allowBackup
+		ADDED from [pure2d-master:pure2D:unspecified] /home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/exploded-aar/pure2d-master/pure2D/unspecified/AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:15:9-67
+service#com.funzio.pure2D.demo.loaders.HelloLoaderService
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:19:9-26:19
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:22:13-45
+	android:exported
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:20:13-77
+intent-filter#com.longo.pure2D.demo.loaders.HelloLoaderService.INTENT_START
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:23:13-25:29
+action#com.longo.pure2D.demo.loaders.HelloLoaderService.INTENT_START
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:24:17-104
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:24:25-101
+activity#com.funzio.pure2D.demo.activities.MainMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:28:9-37:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:31:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:29:13-78
+activity#com.funzio.pure2D.demo.objects.ObjectMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:38:9-42:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:41:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:40:13-52
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:39:13-77
+activity#com.funzio.pure2D.demo.objects.HelloObjectActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:43:9-47:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:45:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:46:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:44:13-78
+activity#com.funzio.pure2D.demo.objects.MultipleObjectActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:48:9-52:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:50:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:51:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:49:13-81
+activity#com.funzio.pure2D.demo.objects.JumperActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:53:9-57:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:55:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:56:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:54:13-73
+activity#com.funzio.pure2D.demo.objects.BouncerActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:58:9-62:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:60:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:61:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:59:13-74
+activity#com.funzio.pure2D.demo.objects.LWFCharacterActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:63:9-67:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:65:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:66:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:64:13-79
+activity#com.funzio.pure2D.demo.objects.LWFCinematicActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:68:9-76:20
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:70:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:69:13-79
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:71:13-75:29
+action#android.intent.action.MAIN
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:72:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:74:27-74
+activity#com.funzio.pure2D.demo.containers.ContainerMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:77:9-81:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:80:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:79:13-47
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:78:13-83
+activity#com.funzio.pure2D.demo.containers.DisplayGroupActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:82:9-86:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:84:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:85:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:83:13-82
+activity#com.funzio.pure2D.demo.containers.UniGroupActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:87:9-91:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:89:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:90:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:88:13-78
+activity#com.funzio.pure2D.demo.containers.UniGroupClipActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:92:9-96:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:94:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:95:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:93:13-82
+activity#com.funzio.pure2D.demo.containers.VGroupActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:97:9-101:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:99:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:100:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:98:13-76
+activity#com.funzio.pure2D.demo.containers.HGroupActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:102:9-106:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:104:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:105:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:103:13-76
+activity#com.funzio.pure2D.demo.containers.VWheelActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:107:9-111:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:109:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:110:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:108:13-76
+activity#com.funzio.pure2D.demo.containers.VListActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:112:9-116:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:114:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:115:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:113:13-75
+activity#com.funzio.pure2D.demo.containers.HListActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:117:9-121:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:119:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:120:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:118:13-75
+activity#com.funzio.pure2D.demo.containers.HWheelActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:122:9-126:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:124:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:125:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:123:13-76
+activity#com.funzio.pure2D.demo.containers.VWheel3DActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:127:9-131:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:129:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:130:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:128:13-78
+activity#com.funzio.pure2D.demo.containers.HWheel3DActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:132:9-136:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:134:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:135:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:133:13-78
+activity#com.funzio.pure2D.demo.containers.GridGroupActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:137:9-141:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:139:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:140:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:138:13-79
+activity#com.funzio.pure2D.demo.ui.ScrollActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:142:9-146:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:144:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:145:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:143:13-68
+activity#com.funzio.pure2D.demo.textures.TextureMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:147:9-151:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:150:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:149:13-45
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:148:13-79
+activity#com.funzio.pure2D.demo.textures.HelloTextureActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:152:9-156:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:154:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:155:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:153:13-80
+activity#com.funzio.pure2D.demo.textures.Sprite9Activity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:157:9-161:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:159:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:160:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:158:13-75
+activity#com.funzio.pure2D.demo.textures.RepeatingTextureActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:162:9-166:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:164:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:165:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:163:13-84
+activity#com.funzio.pure2D.demo.textures.MultipleTextureActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:167:9-171:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:169:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:170:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:168:13-83
+activity#com.funzio.pure2D.demo.textures.TexturePackerActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:172:9-176:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:174:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:175:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:173:13-81
+activity#com.funzio.pure2D.demo.textures.URLTextureActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:177:9-181:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:179:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:180:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:178:13-78
+activity#com.funzio.pure2D.demo.textures.TextureBlendingActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:182:9-186:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:184:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:185:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:183:13-83
+activity#com.funzio.pure2D.demo.buffers.FrameBufferActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:187:9-191:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:189:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:190:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:188:13-78
+activity#com.funzio.pure2D.demo.textures.ImageSequenceActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:192:9-196:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:194:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:195:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:193:13-81
+activity#com.funzio.pure2D.demo.buffers.BufferMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:197:9-201:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:200:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:199:13-45
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:198:13-77
+activity#com.funzio.pure2D.demo.buffers.StencilBufferActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:202:9-206:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:204:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:205:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:203:13-80
+activity#com.funzio.pure2D.demo.ui.UIMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:207:9-211:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:210:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:209:13-50
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:208:13-68
+activity#com.funzio.pure2D.demo.pui.PUIMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:212:9-216:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:215:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:214:13-52
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:213:13-70
+activity#com.funzio.pure2D.demo.ui.HelloTextActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:217:9-221:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:219:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:220:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:218:13-71
+activity#com.funzio.pure2D.demo.ui.KoreanCharsetActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:222:9-226:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:224:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:225:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:223:13-75
+activity#com.funzio.pure2D.demo.ui.BitmapFontActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:227:9-231:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:229:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:230:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:228:13-72
+activity#com.funzio.pure2D.demo.ui.ButtonActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:232:9-236:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:234:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:235:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:233:13-68
+activity#com.funzio.pure2D.demo.pui.PUIActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:237:9-241:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:239:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:240:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:238:13-66
+activity#com.funzio.pure2D.demo.camera.CameraMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:242:9-246:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:245:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:244:13-43
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:243:13-76
+activity#com.funzio.pure2D.demo.camera.HelloCameraActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:247:9-251:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:249:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:250:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:248:13-77
+activity#com.funzio.pure2D.demo.camera.PerspectiveCameraActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:252:9-256:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:254:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:255:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:253:13-83
+activity#com.funzio.pure2D.demo.simple3D.Simple3DMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:257:9-261:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:260:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:259:13-46
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:258:13-80
+activity#com.funzio.pure2D.demo.simple3D.Rotation3DActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:262:9-266:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:264:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:265:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:263:13-78
+activity#com.funzio.pure2D.demo.particles.ParticleMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:267:9-271:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:270:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:269:13-53
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:268:13-81
+activity#com.funzio.pure2D.demo.particles.SimpleSmokeActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:272:9-276:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:274:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:275:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:273:13-80
+activity#com.funzio.pure2D.demo.particles.MotionTrailActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:277:9-281:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:279:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:280:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:278:13-80
+activity#com.funzio.pure2D.demo.particles.DynamicEmitterActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:282:9-286:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:284:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:285:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:283:13-83
+activity#com.funzio.pure2D.demo.particles.CoinExplosionActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:287:9-291:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:289:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:290:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:288:13-82
+activity#com.funzio.pure2D.demo.particles.NovaMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:292:9-296:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:295:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:294:13-57
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:293:13-77
+activity#com.funzio.pure2D.demo.particles.NovaActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:297:9-301:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:299:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:300:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:298:13-73
+activity#com.funzio.pure2D.demo.effects.EffectsMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:302:9-306:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:305:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:304:13-44
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:303:13-78
+activity#com.funzio.pure2D.demo.effects.SparksActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:307:9-311:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:309:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:310:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:308:13-73
+activity#com.funzio.pure2D.demo.effects.MotionTrailShapeActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:312:9-316:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:314:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:315:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:313:13-83
+activity#com.funzio.pure2D.demo.effects.UniMotionTrailShapeActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:317:9-321:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:319:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:320:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:318:13-86
+activity#com.funzio.pure2D.demo.effects.MotionTrailPlotActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:322:9-326:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:324:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:325:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:323:13-82
+activity#com.funzio.pure2D.demo.effects.UniMotionTrailPlotActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:327:9-331:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:329:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:330:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:328:13-85
+activity#com.funzio.pure2D.demo.astar.AstarMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:332:9-336:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:335:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:334:13-44
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:333:13-74
+activity#com.funzio.pure2D.demo.astar.AstarRectGridActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:337:9-341:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:339:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:340:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:338:13-78
+activity#com.funzio.pure2D.demo.astar.AstarHexGridActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:342:9-346:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:344:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:345:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:343:13-77
+activity#com.funzio.pure2D.demo.physics.PhysicsMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:347:9-351:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:350:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:349:13-44
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:348:13-78
+activity#com.funzio.pure2D.demo.physics.HelloPhysicsActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:352:9-356:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:354:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:355:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:353:13-79
+activity#com.funzio.pure2D.demo.loaders.LoaderMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:357:9-361:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:360:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:359:13-44
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:358:13-77
+activity#com.funzio.pure2D.demo.loaders.LoaderServiceActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:362:9-366:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:364:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:365:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:363:13-80
+activity#com.funzio.pure2D.demo.loaders.LoaderAsyncActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:367:9-371:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:369:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:370:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:368:13-78
+activity#com.funzio.pure2D.demo.animations.AnimationMenuActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:372:9-376:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:375:13-55
+	android:label
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:374:13-47
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:373:13-83
+activity#com.funzio.pure2D.demo.animations.HelloAtlasActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:377:9-381:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:379:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:380:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:378:13-80
+activity#com.funzio.pure2D.demo.animations.JsonAtlasActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:382:9-386:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:384:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:385:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:383:13-79
+activity#com.funzio.pure2D.demo.animations.MultiAtlasActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:387:9-391:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:389:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:390:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:388:13-80
+activity#com.funzio.pure2D.demo.animations.TweenAnimationsActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:392:9-396:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:394:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:395:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:393:13-85
+activity#com.funzio.pure2D.demo.animations.PathAnimationActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:397:9-401:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:399:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:400:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:398:13-83
+activity#com.funzio.pure2D.demo.animations.BezierAnimationActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:402:9-406:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:404:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:405:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:403:13-85
+activity#com.funzio.pure2D.demo.animations.WaveAnimationActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:407:9-411:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:409:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:410:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:408:13-83
+activity#com.funzio.pure2D.demo.animations.TornadoAnimationActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:412:9-416:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:414:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:415:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:413:13-86
+activity#com.funzio.pure2D.demo.animations.WhirlAnimationActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:417:9-421:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:419:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:420:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:418:13-84
+activity#com.funzio.pure2D.demo.animations.ParallelAnimationActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:422:9-426:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:424:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:425:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:423:13-87
+activity#com.funzio.pure2D.demo.animations.SkeletonActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:427:9-431:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:429:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:430:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:428:13-78
+activity#com.funzio.pure2D.demo.animations.SkeletonCacheActivity
+ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:432:9-436:20
+	android:screenOrientation
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:434:13-55
+	android:theme
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:435:13-66
+	android:name
+		ADDED from /home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/AndroidManifest.xml:433:13-83

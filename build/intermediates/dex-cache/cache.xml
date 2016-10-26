@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/wanqi/Downloads/pure2d-master/pure2DDemo/libs/slf4j-android-1.5.8.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="404eece4bb07ea211f5a879c22458775c612f0df">
+        <dex dex="/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/pre-dexed/debug/slf4j-android-1.5.8-7b2c51c995dde23bd7f8bc707bd1ea4f03d0b409.jar" />
+    </item>
+    <item
+        jar="/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/exploded-aar/pure2d-master/pure2D/unspecified/libs/jbox2d-library-2.1.2.2.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0f81c3da2b3493f2885a6253a3e335418f2d26e6">
+        <dex dex="/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/pre-dexed/debug/jbox2d-library-2.1.2.2-8199b5431b60203cbb84387f4cd5a9d6676b6080.jar" />
+    </item>
+    <item
+        jar="/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/exploded-aar/pure2d-master/pure2D/unspecified/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="036e1953e95f22bdacafcde82a264d227d63eaf6">
+        <dex dex="/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/pre-dexed/debug/classes-63549acacdf7bf811bf6440bd29329f2ff0f2be8.jar" />
+    </item>
+
+</items>

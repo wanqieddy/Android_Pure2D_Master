@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_constraints.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_constraints.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_animators.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_animators.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_nova.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_nova.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_my_dialog.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_my_dialog.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_fonts.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_fonts.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_include.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_include.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_hgroups.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_hgroups.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_buttons.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_buttons.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_clips.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_clips.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_button_bar.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_button_bar.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/atlas.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/atlas.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/test.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/test.xml"
+    },
+    {
+        "merged": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/build/intermediates/res/merged/debug/xml/pui_vgroups.xml",
+        "source": "/home/wanqi/Downloads/pure2d-master/pure2DDemo/src/main/res/xml/pui_vgroups.xml"
+    }
+]
